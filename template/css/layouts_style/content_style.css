@@ -1,0 +1,102 @@
+aside.aside ul, 
+section.section .section-items .item {
+	border: 1px solid #F7F7F5;
+}
+/*_____________________ ASIDE STYLE ___________________*/
+aside.aside ul {
+	padding: 10px;
+	text-transform: uppercase;
+}
+aside.aside ul {
+	list-style: none;
+}
+aside.aside ul li {
+	margin-bottom: 10px;
+}
+aside.aside ul li:last-child {
+	margin-bottom: 0;
+}
+aside.aside {
+	grid-area: sidebar;
+}
+/*_____________________ ASIDE STYLE ___________________*/
+section.section {
+	grid-area: section;
+}
+
+section.section .section-items {
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.item {
+	padding: 10px;
+	position: relative;
+}
+.item p.item-name {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #696763;
+}
+.item a {
+	display: inline;
+	padding: 5px 10px;
+	transition: all .5s ease;
+}
+.item a i{
+	margin-right: 10px;
+}
+.item a:hover {
+	background: #FE980F;
+	color: #fff;
+}
+
+.slider {
+	grid-area: slider;
+}
+h2.item-price {
+	font-size: 24px;
+	color: #FE980F;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.slider .item {
+	text-align: center;
+}
+.slider .item img {
+	height: auto;
+	display: inline;
+}
+
+.slider .slick-prev:before, 
+.slider .slick-next:before {
+	color: #424242;
+}
+.triangle {
+	position: absolute;
+	top: 20px;
+	right: 60px;
+}
+.triangle:after {
+	z-index: 1;
+	content: ''; 
+   position: absolute;
+   left: 20px; bottom: -20px;
+   border: 20px solid transparent;	
+   border-top: 20px solid #ec2e2e; 
+   border-right: 20px solid #ec2e2e;
+}
+.triangle p {
+	text-transform: uppercase;
+	top: -10px;
+	left: 33px;
+	z-index: 2;
+	color: #fff;
+	font-weight: 600;
+	position: absolute;
+	font-size: 10px;
+	transform: rotate(45deg);
+}

@@ -1,0 +1,141 @@
+/*____________________ BEGIN HEADER _________________________*/
+header.header {
+	grid-area: header;
+}
+/*____________________ END HEADER _________________________*/
+
+/*____________________ BEGIN HEADER TOP _________________________*/
+.header-top {
+	background: #F0F0E9;
+	width: 100%;
+}
+
+.header-top__contact p, .header-top__links {
+	display: inline-block;
+}
+.header-top__contact p:first-child {
+	margin-right: 20px;
+}
+.header-top__contact {
+	grid-column: 1 / 1;
+}
+.header-top__links {
+	grid-column: 5 / 5;
+}
+.header-top__links ul {
+	height: 100%;
+}
+.header-top__links li {
+	margin-left: -0.36em;
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	width: 36px;
+}
+.header-top__links li a::before {
+	content: "";
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.header-top__links li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	transition: background 1s ease;
+	color: #696763;
+}
+.header-top__links li.facebook a:hover {
+	background: #3b5998;
+	color: white;
+}
+.header-top__links li.google a:hover {
+	background: #dc4e41;
+	color: white;
+}
+/*____________________ END HEADER TOP _________________________*/
+
+/*____________________ BEGIN HEADER MIDDLE _________________________*/
+.header-middle .container_center {
+	padding: 20px 0;
+	border-bottom: 1px solid #f5f5f5;
+}
+.header-middle__logo img {
+	width: 64px;
+	height: 64px;
+}
+ul.header-middle__nav {
+	grid-column: 5 / 5;
+}
+ul.header-middle__nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+ul.header-middle__nav li a {
+	transition: color .5s ease;
+}
+ul.header-middle__nav li a:hover {
+	color: #fe980f;
+}
+ul.header-middle__nav li:last-child {
+	margin-right: 0;
+}
+ul.header-middle__nav li i {
+	margin-right: 5px;
+}
+/*____________________ END HEADER MIDDLE _________________________*/
+
+/*____________________ BEGIN HEADER BOTTOM _________________________*/
+ul.header__bottom-nav li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+ul.header__bottom-nav li a {
+	transition: color .5s ease;
+}
+ul.header__bottom-nav li a:hover {
+	color: #fdb45e;
+}
+.header-bottom .container_center {
+	padding: 20px 0;
+}
+ul.dropdown {
+	display: none;
+	position: absolute;
+	background: rgba(0,0,0, .8);
+	padding: 0;
+	margin: 0;
+	z-index: 999;
+	animation: toggle .5s ease;
+}
+@keyframes toggle{
+	from {
+		top: 90px;
+		opacity: 0;
+	}
+	to {
+		top: 20px;
+		opacity: .8;
+	}
+}
+ul.dropdown li a {
+	white-space: nowrap;
+	display: block;
+	color: white;
+	padding: 10px 40px;
+}
+ul.header__bottom-nav li {
+	position: relative;
+}
+ul.header__bottom-nav > li:hover > ul.dropdown {
+	display: block;
+	opacity: .8;
+	zoom: 1;
+}
+ul.dropdown li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+/*____________________ END HEADER BOTTOM _________________________*/

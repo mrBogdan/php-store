@@ -1,0 +1,15 @@
+footer.footer {
+ 	grid-area: footer;
+ 	height: 70px;
+ 	width: 100%;
+ 	background: #ccc;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	display: inline-block;
+}
+footer.footer::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}

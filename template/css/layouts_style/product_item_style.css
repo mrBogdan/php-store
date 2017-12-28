@@ -1,0 +1,85 @@
+/*____________________ BEGIN PRODUCT ITEM _____________________*/
+section.item_descr {
+	border-bottom: 1px solid #F7F7F5;
+	display: grid;
+	grid-template-areas:
+	"itemImg itemBriefDescr"
+	"itemFullDescr itemFullDescr";
+}
+section.item_descr div.item-img {
+	margin: 0;
+	grid-area: itemImg;
+	width: 80%;
+	position: relative;
+}
+section.item_descr .block_new {
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fd1a11;
+	color: #fff;
+	font-size: .8em;
+	padding: 5px;
+}
+.brief_descr {
+	grid-area: itemBriefDescr;
+}
+.brief_descr h2{
+	color: #363432;
+	font-size: 1.2em;
+}
+.brief_descr p {
+	font-size: 1em;
+	margin: 20px 0;
+}
+.brief_descr p:last-child {
+	margin: 0;
+}
+.brief_descr span {
+	display: inline-block;
+}
+.brief_descr span p {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.brief_descr span p.price {
+	color: #FE980F;
+	font-size: 1.5em;
+	
+}
+.brief_descr span input {
+	margin-right: 20px;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+	height: 33px;
+	width: 50px;
+	font: 1em Roboto, sans-serif;
+	font-weight: bold;
+	color: #696763;
+	border: 1px solid #DEDEDC;
+}
+.brief_descr span button {
+	background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.brief_descr span button:hover {
+	color: #333;
+}
+.brief_descr b {
+	font-weight: bold;
+}
+
+.full_descr {
+	grid-area: itemFullDescr;
+}
+/*____________________ END PRODUCT ITEM _____________________*/

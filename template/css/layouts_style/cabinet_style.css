@@ -1,0 +1,66 @@
+/*____________________ BEGIN CABINET STYLES ____________________*/
+.cabinet ul li a {
+	color: #346c79;
+	word-wrap: nowrap;
+}
+.cabinet {
+
+}
+.cabinet ul li {
+	word-wrap: nowrap;
+}
+.cabinet h2 {
+	color: #000;
+	letter-spacing: .1em;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.cabinet h3 {
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 20px 0;
+}
+/*____________________ END CABINET STYLES ____________________*/
+
+/*____________________ BEGIN CART STYLES _____________________*/
+.cart table {
+	width: 100%;
+}
+.cart table {
+	border: 1px solid #E6E4DF;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.cart table td  {
+	width: 10%;
+}
+/*.cart table tr:nth-child(2n) {
+	background: rgba(230, 228, 223, .27);
+}*/
+.cart table tr th {
+	background: #FE980F;
+	color: #fff;
+}
+.cart table tr td, th{
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+}
+.cart table tr {
+	border-bottom: 1px solid #E6E4DF; 
+	border-top: 1px solid #E6E4DF;
+}
+.cart table tr td a {
+	color: #363432;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.cart table tr td p {
+	font-size: 15px;
+}
+.cart table tfoot tr td:last-child{
+	border-right: 1px solid #E6E4DF; 
+}
+/*____________________ END CART STYLES _____________________*/
