@@ -5,3 +5,5 @@ php store - course project
   * Jquery - js
   * Pagination - for create pagination (php)
   * Autoload - for automatic loading files with components (php)
+# Usage
+In file a config/db_params.php you need to change returning array of params of db on own.
