@@ -6,4 +6,4 @@ php store - course project
   * Pagination - for create pagination (php)
   * Autoload - for automatic loading files with components (php)
 # Usage
-In file a config/db_params.php you need to change returning array of params of db on own.
+In file a config/db_params.php you need to change returning array of params on own.
