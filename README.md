@@ -1,5 +1,5 @@
 # php-store
-php store - course project
+php store MVC - course project - online course php start 
 # Libs:
   * Slick - js lib for slideshow
   * Jquery - js
